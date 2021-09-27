@@ -1,0 +1,69 @@
+body 
+{
+	background-color: aquamarine;
+	background-image: url(https://www.skilledgroup.com/wp-content/uploads/2017/12/Industry-Sector-Chemical-Skilled-Group.jpg);
+	background-size: 95%;
+}
+
+table 
+{
+	width: 95%;
+	height: 95%;
+	empty-cells: hide;
+}
+
+table tr td 
+{
+	height: 5vw;
+}
+h2 
+{
+	color: white;
+}
+
+td 
+{
+	border: 1px solid black;
+	background-color: royalblue;
+	position: relative;
+}
+
+th 
+{
+	background-color: palegreen;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+p 
+{
+	font-size: 0.8vw;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.weight
+{
+	margin-right: 0px;
+	float: right;
+}
+
+.num 
+{
+margin-left: 0px;
+float: left;
+}
+
+.element 
+{
+	font-size: 1vw;
+	float: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+div 
+{
+	border-radius: 1px;
+}

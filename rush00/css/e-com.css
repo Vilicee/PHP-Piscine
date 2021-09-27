@@ -1,0 +1,133 @@
+body {
+	background: #3e8a79;
+}
+
+p, a, button {
+	font-family: Courier;
+}
+
+h1 {
+	font-family: "Lucida Console", monospace;
+	position: inherit;
+	float: left;
+	margin-top: 15px;
+	vertical-align: middle;
+}
+
+h2
+{
+	position: relative;
+	float: center;
+}
+
+table {
+	width:100%;
+	border: none;
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+
+tr {
+	height: 100px;
+	background-color: #FFFFFF;
+}
+
+td {
+	width: 33%;
+	text-align: center;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 30%;
+}
+
+#logo {
+	border-radius: 15px;
+	background: #8ebdb2;
+	height: 120px;
+	width: auto;
+	margin-top: -60px;
+}
+
+.btn {
+	display: inline;
+	font-size: 15px;
+	margin-right: 15px;
+	background-color: #8ebdb2;
+	border: none;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.btn2 {
+	position: inherit;
+	display: block;
+	width: 100%;
+	margin-right: 0px;
+	background-color: #8ebdb2;
+	border: none;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0da380;
+  color: white;
+}
+
+.top-banner {
+	border-radius: 15px;
+	background: #8ebdb2;
+	height: 60px;
+	width: 90%;
+	margin: auto;
+	margin-top: 100px;
+	box-shadow: 10px 10px 20px black;
+}
+
+.content {
+	width: 90%;
+	height: 700px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 1px;
+	display: block;
+}
+
+.categories {
+	position: inherit;
+	float: left;
+	border-radius: 15px;
+	background: #8ebdb2;
+	width: 8%;
+	height: 26%;
+	box-shadow: 10px 10px 20px black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.product-demo {
+	position: inherit;
+	display: flex;
+	flex-direction:column;
+	float: left;
+	width: 90%;
+	border-radius: 15px;
+}
+
+
+.author {
+	margin-top: 0px;
+	float: right;
+}
+
+.form {
+	position: inherit;
+	display: inline;
+	margin-top: -17px;
+	width: 500px;
+}

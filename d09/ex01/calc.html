@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<style>
+
+		</style>
+	</head>
+	<body>
+		<form name="calculator" method="GET" id="myCalc">
+			<input type="text" name="value1" id="int" value=""/>
+			<select name="op" id="oper">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+				<option value="%">%</option>
+			  </select>
+		 	<input type="text" id="int2" value=""/>
+		 	<button onclick="myCalc()">Try me!</button>
+	 	</form>
+		<script>
+			var res = 0;
+			setInterval(function(){ft_alert()}, 30000);
+			function ft_alert()
+			{
+				alert("Please, use me...");
+			}
+			function myCalc()
+			{	
+				var first = parseInt(document.getElementById('int').value);
+				var operator = document.getElementById('oper').value;
+				var third = parseInt(document.getElementById("int2").value);
+				
+				if (first < 0 || third < 0)
+				{
+					alert("Error :(");
+					return;
+				}
+				if (third == 0)
+				{
+					if (operator == '%' || operator == '/')
+					{
+						alert("It's over 9000!");
+						console.log("It's over 9000!");
+						return;	
+					}
+				}
+				if (!isNaN(first) && !isNaN(third))
+				{
+					if (operator == '+')
+						res = first + third;
+					if (operator == '-')
+						res = first - third;
+					if (operator == '*')
+						res = first * third;
+					if (operator == '/')
+						res = first / third;
+					if (operator == '%')
+						res = first % third;
+					alert(res);
+					console.log(first);
+				}
+			}
+		</script>
+	</body>
+</html>

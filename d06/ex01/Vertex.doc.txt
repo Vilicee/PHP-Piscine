@@ -1,0 +1,22 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class offers a coordinate encapsulation and provides reading and 
+writing accessors for the corresponding attributes.
+
+The Class’ constructor is expecting an array. The following keys are required:
+’x’: x axis coordinate, mandatory.
+’y’: y axis coordinate, mandatory.
+’z’: z axis coordinate, mandatory.
+’w’: optional, by default is worth 1.0.
+’color’: optional, by default is worth a new instance of the color white.
+
+The class includes a Boolean static, which is False by default.
+
+Please note, __toString in Vertex class only includes the vertex coor if 
+the static attribute verbose is True.
+
+The class provides the following methods :
+
+setX, setY, setZ, setW and setColor for writing accessors.
+
+getX, getY, getZ, getW and getColor for reading accessors.
+---------------------------------------------------------------------- Vertex ->
